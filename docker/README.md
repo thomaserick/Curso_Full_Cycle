@@ -67,6 +67,25 @@
 
   - ENTRYPOINT ["echo","Hello"]
 
+### Network
+
+- Tipos
+
+  - bridge = uma ponte
+  - host = ele mescla as network mesma rede do PC
+
+- Listar as redes
+
+  - docker network ls
+
+- Criar uma rede
+
+  - docker network create --driver bridge minharede
+
+- Conectar um container a uma rede
+
+  - docker network connect minharede container
+
   ### Adendo
 
   - Comando no arquivo para poder aceitar o que adicionar após
