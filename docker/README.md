@@ -47,7 +47,27 @@
 
   - docker volume ls
 
-  ### Comandos Imagem
+- Removendo uma lista de container
 
-  - Criar uma imagem
-    - docker build -t nome/nginx-com-vim:latest  . (pasta que esta)
+  - docker rm $(docker ps -a -q) -f
+
+### Comandos Imagem
+
+- Criar uma imagem
+  - docker build -t nome/nginx-com-vim:latest . (pasta que esta)
+
+### Dockerfile
+
+- Comando CMD
+
+  - CMD ["echo","Hello world"]
+  - docker run nginx echo "oi"
+
+- Comando fixo e variavel
+
+  - ENTRYPOINT ["echo","Hello"]
+
+  ### Adendo
+
+  - Comando no arquivo para poder aceitar o que adicionar após
+    - exec "$@"
