@@ -51,6 +51,13 @@
 
   - docker rm $(docker ps -a -q) -f
 
+- Subindo com composer
+
+  - docker-compose up -d
+
+- Subindo com composer e rebuildando imagem
+  - docker compose -up -d --build
+
 ### Comandos Imagem
 
 - Criar uma imagem

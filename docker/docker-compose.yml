@@ -6,7 +6,7 @@ services:
     build: 
       context: ./laravel
       dockerfile: Dockerfile.prod
-    image: wesleywillians/laravel:prod
+    image: thomaserick/laravel:prod
     container_name: laravel
     networks: 
       - laranet
@@ -15,7 +15,7 @@ services:
     build: 
       context: ./nginx
       dockerfile: Dockerfile.prod
-    image: wesleywillians/nginx:prod
+    image: thomaserick/nginx:prod
     container_name: nginx
     networks: 
       - laranet
