@@ -58,6 +58,9 @@
 - Subindo com composer e rebuildando imagem
   - docker compose -up -d --build
 
+- Aguardar para subir o servido
+  - dockerize 
+
 ### Comandos Imagem
 
 - Criar uma imagem
