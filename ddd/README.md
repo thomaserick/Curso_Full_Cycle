@@ -25,6 +25,7 @@
 #### Entities
 
 - "Uma entidade é algo unico que é capaz ser alterado de forma continua durante um longo período de tempo." by: Vernon
+- Sempre auto validar
 
 ### Comandos
 
